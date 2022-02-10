@@ -20,6 +20,8 @@ public class WaveSpawner : MonoBehaviour
         public float rate;
     }
 
+    public Room room;
+
     public Wave[] waves;
     private int nextWave = 0;
 
@@ -80,8 +82,9 @@ public class WaveSpawner : MonoBehaviour
 
         if( nextWave + 1 > waves.Length - 1)
         {
-            nextWave = 0;
-            Debug.Log("complete all waves");
+            room.isRoomClear = true;
+            room.doorVisible.enabled = false;
+            room.door.isTrigger = true;
         }
         else{ nextWave++; }
     }

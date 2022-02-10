@@ -271,9 +271,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.10882062, y: 0.015053362, z: 0.00040458888}
+    m_Target: {x: 1.1715677, y: -0.7054963, z: 0.016989462}
     speed: 2
-    m_Value: {x: -0.84730315, y: 0.21663612, z: -0.0042884033}
+    m_Value: {x: 1.4349602, y: -0.7255238, z: 0.020564094}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -324,9 +324,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 9.959541
+    m_Target: 8.301052
     speed: 2
-    m_Value: 10.428839
+    m_Value: 7.9435906
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -494,7 +494,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -653,7 +653,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 24520
+  m_LastSelectedObjectID: 25170
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -750,22 +750,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Animations
+    - Assets/Prefabs/Rooms
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Animations
+  - Assets/Prefabs/Rooms
   m_LastFoldersGridSize: 16
   m_LastProjectPath: E:\Unity\Ksaido
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e8610000
-    m_LastClickedID: 25064
-    m_ExpandedIDs: 00000000c6610000c8610000ca610000e461000000ca9a3b
+    m_SelectedIDs: f2610000
+    m_LastClickedID: 25074
+    m_ExpandedIDs: 00000000c6610000c8610000ca610000e061000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -818,24 +818,24 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 52620000
-    m_LastClickedInstanceID: 25170
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 5a6d0000
+    m_LastClickedInstanceID: 27994
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000745e00007e75000000000000a66000009c850000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Left_Right_Room
-      m_OriginalName: Left_Right_Room
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 24584
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 9}
     m_CreateAssetUtility:
@@ -906,9 +906,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 52620000
-      m_LastClickedID: 25170
-      m_ExpandedIDs: 5ef9ffff40620000
+      m_SelectedIDs: 5a6d0000
+      m_LastClickedID: 27994
+      m_ExpandedIDs: 5ed0ffff7a6d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -942,7 +942,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
+  m_Name: GridPaintPaletteWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -951,14 +951,14 @@ MonoBehaviour:
     y: 0
     width: 361
     height: 987
-  m_MinSize: {x: 276, y: 71}
+  m_MinSize: {x: 241, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
   - {fileID: 16}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
